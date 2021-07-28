@@ -33,6 +33,15 @@
     color: #E76F51;
 }
 
-.img-color{
+.img-gray{
     filter: grayscale(100%);
+}
+
+.orange-color{
+    color: #E76F51;
+}
+
+.profile-img{
+    width: 10rem;
+    height: auto;
 }
