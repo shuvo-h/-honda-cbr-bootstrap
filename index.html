@@ -33,16 +33,18 @@
                         <!-- Header Title End  -->
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 my-md-5 my-lg-1">
                     <!-- Header Banner Start -->
-                    <div class="my-4 ">
+                    <div class="my-4 my-md-5">
                         <img class="img-fluid" src="./images/header-bike.png" alt="">
                     </div>
                     <!-- Header Banner end -->
                 </div>
             </div>
+            <!------------------------------ 
+                        Modal Function
+            -------------------------------->
             <section>
-                <!-- Modal Function-->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
@@ -248,7 +250,7 @@
         </section>
       <!-- Pros and Cons of Honda CBR-->
       <section class="container my-5">
-        <h1 class="text-center">Pros ans Cons of Honda CBR</h1>
+        <h1 class="text-center">Pros and Cons of Honda CBR</h1>
         <div class="bg-slide">
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -258,7 +260,7 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row">
-                  <div class="col-6">
+                  <div class="col-12 col-md-6">
                     <ul class="list-group w-75 d-flex mx-auto my-4">
                       <h4 class="text-warning">Pros:</h4>
                       <li class="list-group-item  border-none bg-slide text-white"><i class="fas fa-check text-warning"></i>  Good Looking & Sporty Design.</li>
@@ -269,7 +271,7 @@
                       <li class="list-group-item  border-none bg-slide text-white"><i class="fas fa-check text-warning"></i>  Comfortable Riding Posture.</li>
                     </ul>
                   </div>
-                  <div class="col-6">
+                  <div class="col-12 col-md-6">
                     <img src="./images/pros.png" class="d-block w-100" alt="...">
                   </div>
                 </div>
@@ -280,7 +282,7 @@
               </div>
               <div class="carousel-item">
                 <div class="row">
-                  <div class="col-6">
+                  <div class="col-12 col-md-6">
                     <ul class="list-group w-75 d-flex mx-auto my-4 ">
                       <h4 class="text-warning">Cons:</h4>
                       <li class="list-group-item  border-none bg-slide text-white"><i class="fas fa-times text-warning"></i>  Slightly Underpowered compared to other.</li>
@@ -291,7 +293,7 @@
                       <li class="list-group-item  border-none bg-slide text-white"><i class="fas fa-times text-warning"></i>  Brakes are not upto par.</li>
                     </ul>
                   </div>
-                  <div class="col-6">
+                  <div class="col-12 col-md-6">
                     <img src="./images/cons.png" class="d-block w-100" alt="...">
                   </div>
                 </div>
@@ -313,18 +315,26 @@
           </div>
         </div>
       </section>
-        <!-- Suggestion and complain box -->
+        <!-- Recommendation and complain box -->
         <section class="container">
-          <h1 class="text-center text-info">Suggestions and Complain</h1>
+          <h1 class="text-center text-info">Recommendation and Complain</h1>
           <div class="row my-4">
-            <div class="col-lg-3 col-12">
-              <img class="img-fluid my-auto d-none d-md-block" src="./images/suggestion.png" alt="">
+            <div class="col-lg-3 col-12 order-1">
+              <div class="m-3">
+                <div class="card shadow" style="width: auto;">
+                  <img src="./images/recommendation.png"  class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="text-center"><u>My Suggestion</u></h5>
+                    <p class="card-text">It will be a good idea to increase your fuel effciency since most of the riders ride this bike for long journey.</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-6 col-12">
+            <div class="col-lg-6 col-12 order-3 order-lg-2">
               <div class="my-2">
                 <select class="form-select" aria-label="Default select example">
                   <option selected disabled>Choose your information type</option>
-                  <option value="1">Suggestion</option>
+                  <option value="1">Recommendation</option>
                   <option value="2">Complain</option>
                 </select>
               </div>
@@ -342,8 +352,16 @@
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </div>
-            <div class="col-lg-3 col-12">
-              <img class="img-fluid d-block d-none d-md-block" src="./images/complain.png" alt="">
+            <div class="col-lg-3 col-12 order-2 order-lg-3">
+              <div class="m-3">
+                <div class="card shadow" style="width: auto;">
+                  <img src="./images/complain.png"  class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="text-center"><u>My Complain</u></h5>
+                    <p class="card-text">This Honda is very weight and make some disturbed noise. The after glass is not suitable to look back.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
