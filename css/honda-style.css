@@ -45,3 +45,16 @@
     width: 10rem;
     height: auto;
 }
+
+.bg-slide{
+    background-color: #286d88;
+}
+
+.border-none{
+    border: none;
+}
+
+.f{
+    
+    width: 100%;
+}
